@@ -1,1 +1,27 @@
-{"type": "commonjs"}
+{
+  "name": "portfolio-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "gh-pages -d .next",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.1",
+    "next": "13.4.19",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.8.0",
+    "react-dom": "18.2.0",
+    "react-scroll": "^1.8.9",
+    "react-tsparticles": "^2.12.2",
+    "tsparticles": "^2.12.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0",
+    "sass": "^1.66.1"
+  }
+}

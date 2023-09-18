@@ -1,0 +1,37 @@
+.navbar{
+    position: fixed;
+    height: 3em;
+    width: 100%;
+    background-color: rgb(29, 28, 28);
+    top: 0;
+    z-index: 1;
+}
+
+.navbarContainer{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    right: 3em;
+}
+
+.navbarContainer div{
+    height: 100%;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transition: background-color 0.3s ease; 
+    cursor: pointer;
+}
+
+.navbarContainer a{
+    margin: 0 1em;
+}
+
+.navbarContainer div:hover{
+    background-color: rgba(80, 77, 77, 0.747);
+}

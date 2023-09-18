@@ -1,0 +1,14 @@
+.projecttag{
+    width: fit-content;
+    padding: 0.4em 0.4em;
+    border-radius: 35px;
+    border-color: #68148f;
+    background-color: #c4b5ca;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: none;
+    color: #68148f;
+    margin: 0.3em 0.3em;
+}
